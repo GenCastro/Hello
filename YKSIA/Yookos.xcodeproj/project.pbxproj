@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160C6E161C75F1370081079E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E151C75F1370081079E /* AppDelegate.swift */; };
+		160C6E181C75F1370081079E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E171C75F1370081079E /* ViewController.swift */; };
+		160C6E1B1C75F1370081079E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160C6E191C75F1370081079E /* Main.storyboard */; };
+		160C6E1D1C75F1370081079E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160C6E1C1C75F1370081079E /* Assets.xcassets */; };
+		160C6E201C75F1370081079E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160C6E1E1C75F1370081079E /* LaunchScreen.storyboard */; };
+		160C6E2B1C75F1380081079E /* YKSIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E2A1C75F1380081079E /* YKSIATests.swift */; };
+		160C6E361C75F1380081079E /* YKSIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E351C75F1380081079E /* YKSIAUITests.swift */; };
+		160C6E441C75F6960081079E /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E431C75F6960081079E /* welcomeViewController.swift */; };
+		160C6E4A1C7614CF0081079E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C6E491C7614CF0081079E /* loginViewController.swift */; };
+		1624ABD51C7AF6B000EF25F5 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624ABD41C7AF6B000EF25F5 /* HttpRequest.swift */; };
+		1624ABD71C7B344200EF25F5 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624ABD61C7B344200EF25F5 /* MyProtocol.swift */; };
+		1624ABDA1C7C45E600EF25F5 /* signup_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1624ABD91C7C45E600EF25F5 /* signup_1.png */; };
+		1624ABE21C7C5B0700EF25F5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624ABE11C7C5B0600EF25F5 /* SignUpViewController.swift */; };
+		1667D9771C770E7C00DDF159 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1667D9761C770E7C00DDF159 /* User.swift */; };
+		1667D9791C7722C100DDF159 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1667D9781C7722C100DDF159 /* Profile.swift */; };
+		1667D97B1C77266A00DDF159 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1667D97A1C77266A00DDF159 /* Services.swift */; };
+		1667D97E1C77285F00DDF159 /* Services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1667D97D1C77285F00DDF159 /* Services.plist */; };
+		16FA34271C7DB42F00796AB1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 16FA34261C7DB42F00796AB1 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160C6E271C75F1380081079E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160C6E0A1C75F1370081079E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160C6E111C75F1370081079E;
+			remoteInfo = YKSIA;
+		};
+		160C6E321C75F1380081079E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160C6E0A1C75F1370081079E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160C6E111C75F1370081079E;
+			remoteInfo = YKSIA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160C6E121C75F1370081079E /* Yookos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yookos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160C6E151C75F1370081079E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		160C6E171C75F1370081079E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160C6E1A1C75F1370081079E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		160C6E1C1C75F1370081079E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		160C6E1F1C75F1370081079E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		160C6E211C75F1370081079E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160C6E261C75F1380081079E /* Yookos.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yookos.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160C6E2A1C75F1380081079E /* YKSIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSIATests.swift; sourceTree = "<group>"; };
+		160C6E2C1C75F1380081079E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160C6E311C75F1380081079E /* Yookos.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yookos.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160C6E351C75F1380081079E /* YKSIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKSIAUITests.swift; sourceTree = "<group>"; };
+		160C6E371C75F1380081079E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160C6E431C75F6960081079E /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		160C6E491C7614CF0081079E /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		1624ABD41C7AF6B000EF25F5 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		1624ABD61C7B344200EF25F5 /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
+		1624ABD91C7C45E600EF25F5 /* signup_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup_1.png; sourceTree = "<group>"; };
+		1624ABE11C7C5B0600EF25F5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1667D9761C770E7C00DDF159 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1667D9781C7722C100DDF159 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1667D97A1C77266A00DDF159 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		1667D97D1C77285F00DDF159 /* Services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Services.plist; sourceTree = "<group>"; };
+		16FA34261C7DB42F00796AB1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160C6E0F1C75F1370081079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E231C75F1380081079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E2E1C75F1380081079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160C6E091C75F1370081079E = {
+			isa = PBXGroup;
+			children = (
+				16FA34261C7DB42F00796AB1 /* Podfile */,
+				1624ABD81C7C45D400EF25F5 /* images */,
+				1667D97F1C775FC600DDF159 /* OutSources */,
+				160C6E141C75F1370081079E /* YKSIA */,
+				160C6E291C75F1380081079E /* YKSIATests */,
+				160C6E341C75F1380081079E /* YKSIAUITests */,
+				160C6E131C75F1370081079E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160C6E131C75F1370081079E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160C6E121C75F1370081079E /* Yookos.app */,
+				160C6E261C75F1380081079E /* Yookos.xctest */,
+				160C6E311C75F1380081079E /* Yookos.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160C6E141C75F1370081079E /* YKSIA */ = {
+			isa = PBXGroup;
+			children = (
+				1667D9751C770E5100DDF159 /* Objects */,
+				160C6E481C76149D0081079E /* Login */,
+				160C6E151C75F1370081079E /* AppDelegate.swift */,
+				160C6E171C75F1370081079E /* ViewController.swift */,
+				160C6E191C75F1370081079E /* Main.storyboard */,
+				160C6E1C1C75F1370081079E /* Assets.xcassets */,
+				160C6E1E1C75F1370081079E /* LaunchScreen.storyboard */,
+				160C6E211C75F1370081079E /* Info.plist */,
+				1667D97D1C77285F00DDF159 /* Services.plist */,
+			);
+			path = YKSIA;
+			sourceTree = "<group>";
+		};
+		160C6E291C75F1380081079E /* YKSIATests */ = {
+			isa = PBXGroup;
+			children = (
+				160C6E2A1C75F1380081079E /* YKSIATests.swift */,
+				160C6E2C1C75F1380081079E /* Info.plist */,
+			);
+			path = YKSIATests;
+			sourceTree = "<group>";
+		};
+		160C6E341C75F1380081079E /* YKSIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				160C6E351C75F1380081079E /* YKSIAUITests.swift */,
+				160C6E371C75F1380081079E /* Info.plist */,
+			);
+			path = YKSIAUITests;
+			sourceTree = "<group>";
+		};
+		160C6E481C76149D0081079E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				160C6E431C75F6960081079E /* welcomeViewController.swift */,
+				160C6E491C7614CF0081079E /* loginViewController.swift */,
+				1624ABE11C7C5B0600EF25F5 /* SignUpViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		1624ABD81C7C45D400EF25F5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1624ABD91C7C45E600EF25F5 /* signup_1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		1667D9751C770E5100DDF159 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1667D9761C770E7C00DDF159 /* User.swift */,
+				1667D9781C7722C100DDF159 /* Profile.swift */,
+				1667D97A1C77266A00DDF159 /* Services.swift */,
+				1624ABD41C7AF6B000EF25F5 /* HttpRequest.swift */,
+				1624ABD61C7B344200EF25F5 /* MyProtocol.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		1667D97F1C775FC600DDF159 /* OutSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OutSources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160C6E111C75F1370081079E /* Yookos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160C6E3A1C75F1380081079E /* Build configuration list for PBXNativeTarget "Yookos" */;
+			buildPhases = (
+				160C6E0E1C75F1370081079E /* Sources */,
+				160C6E0F1C75F1370081079E /* Frameworks */,
+				160C6E101C75F1370081079E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yookos;
+			productName = YKSIA;
+			productReference = 160C6E121C75F1370081079E /* Yookos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160C6E251C75F1380081079E /* YookosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160C6E3D1C75F1380081079E /* Build configuration list for PBXNativeTarget "YookosTests" */;
+			buildPhases = (
+				160C6E221C75F1380081079E /* Sources */,
+				160C6E231C75F1380081079E /* Frameworks */,
+				160C6E241C75F1380081079E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160C6E281C75F1380081079E /* PBXTargetDependency */,
+			);
+			name = YookosTests;
+			productName = YKSIATests;
+			productReference = 160C6E261C75F1380081079E /* Yookos.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		160C6E301C75F1380081079E /* YookosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160C6E401C75F1380081079E /* Build configuration list for PBXNativeTarget "YookosUITests" */;
+			buildPhases = (
+				160C6E2D1C75F1380081079E /* Sources */,
+				160C6E2E1C75F1380081079E /* Frameworks */,
+				160C6E2F1C75F1380081079E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160C6E331C75F1380081079E /* PBXTargetDependency */,
+			);
+			name = YookosUITests;
+			productName = YKSIAUITests;
+			productReference = 160C6E311C75F1380081079E /* Yookos.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160C6E0A1C75F1370081079E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yookos;
+				TargetAttributes = {
+					160C6E111C75F1370081079E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H6TK77555C;
+					};
+					160C6E251C75F1380081079E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H6TK77555C;
+						TestTargetID = 160C6E111C75F1370081079E;
+					};
+					160C6E301C75F1380081079E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = H6TK77555C;
+						TestTargetID = 160C6E111C75F1370081079E;
+					};
+				};
+			};
+			buildConfigurationList = 160C6E0D1C75F1370081079E /* Build configuration list for PBXProject "Yookos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160C6E091C75F1370081079E;
+			productRefGroup = 160C6E131C75F1370081079E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160C6E111C75F1370081079E /* Yookos */,
+				160C6E251C75F1380081079E /* YookosTests */,
+				160C6E301C75F1380081079E /* YookosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160C6E101C75F1370081079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA34271C7DB42F00796AB1 /* Podfile in Resources */,
+				1667D97E1C77285F00DDF159 /* Services.plist in Resources */,
+				1624ABDA1C7C45E600EF25F5 /* signup_1.png in Resources */,
+				160C6E201C75F1370081079E /* LaunchScreen.storyboard in Resources */,
+				160C6E1D1C75F1370081079E /* Assets.xcassets in Resources */,
+				160C6E1B1C75F1370081079E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E241C75F1380081079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E2F1C75F1380081079E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160C6E0E1C75F1370081079E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160C6E4A1C7614CF0081079E /* loginViewController.swift in Sources */,
+				1667D9791C7722C100DDF159 /* Profile.swift in Sources */,
+				160C6E441C75F6960081079E /* welcomeViewController.swift in Sources */,
+				160C6E181C75F1370081079E /* ViewController.swift in Sources */,
+				1667D9771C770E7C00DDF159 /* User.swift in Sources */,
+				1624ABE21C7C5B0700EF25F5 /* SignUpViewController.swift in Sources */,
+				1624ABD51C7AF6B000EF25F5 /* HttpRequest.swift in Sources */,
+				1624ABD71C7B344200EF25F5 /* MyProtocol.swift in Sources */,
+				160C6E161C75F1370081079E /* AppDelegate.swift in Sources */,
+				1667D97B1C77266A00DDF159 /* Services.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E221C75F1380081079E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160C6E2B1C75F1380081079E /* YKSIATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160C6E2D1C75F1380081079E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160C6E361C75F1380081079E /* YKSIAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160C6E281C75F1380081079E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160C6E111C75F1370081079E /* Yookos */;
+			targetProxy = 160C6E271C75F1380081079E /* PBXContainerItemProxy */;
+		};
+		160C6E331C75F1380081079E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160C6E111C75F1370081079E /* Yookos */;
+			targetProxy = 160C6E321C75F1380081079E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160C6E191C75F1370081079E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160C6E1A1C75F1370081079E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		160C6E1E1C75F1370081079E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160C6E1F1C75F1370081079E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160C6E381C75F1380081079E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		160C6E391C75F1380081079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160C6E3B1C75F1380081079E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKSIA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIA;
+				PRODUCT_NAME = Yookos;
+			};
+			name = Debug;
+		};
+		160C6E3C1C75F1380081079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKSIA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIA;
+				PRODUCT_NAME = Yookos;
+			};
+			name = Release;
+		};
+		160C6E3E1C75F1380081079E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKSIATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIATests;
+				PRODUCT_NAME = Yookos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yookos.app/Yookos";
+			};
+			name = Debug;
+		};
+		160C6E3F1C75F1380081079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKSIATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIATests;
+				PRODUCT_NAME = Yookos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yookos.app/Yookos";
+			};
+			name = Release;
+		};
+		160C6E411C75F1380081079E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKSIAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIAUITests;
+				PRODUCT_NAME = Yookos;
+				TEST_TARGET_NAME = YKSIA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		160C6E421C75F1380081079E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YKSIAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokoos.YKSIAUITests;
+				PRODUCT_NAME = Yookos;
+				TEST_TARGET_NAME = YKSIA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160C6E0D1C75F1370081079E /* Build configuration list for PBXProject "Yookos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160C6E381C75F1380081079E /* Debug */,
+				160C6E391C75F1380081079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160C6E3A1C75F1380081079E /* Build configuration list for PBXNativeTarget "Yookos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160C6E3B1C75F1380081079E /* Debug */,
+				160C6E3C1C75F1380081079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160C6E3D1C75F1380081079E /* Build configuration list for PBXNativeTarget "YookosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160C6E3E1C75F1380081079E /* Debug */,
+				160C6E3F1C75F1380081079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160C6E401C75F1380081079E /* Build configuration list for PBXNativeTarget "YookosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160C6E411C75F1380081079E /* Debug */,
+				160C6E421C75F1380081079E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160C6E0A1C75F1370081079E /* Project object */;
+}
